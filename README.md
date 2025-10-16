@@ -1,32 +1,37 @@
-# Mirasurf Python Template
+# cogents_bu
 
-A minimal, production-ready template for building Python libraries with modern development practices.
+AI-powered browser automation adapted from browser-use on the Cogents stack.
 
-## 🚀 Quick Start
+## Installation
 
 ```bash
-# Clone and customize
-git clone https://github.com/caesar0301/cogents_bu.git my-library
-cd my-library
-
-# Install development dependencies
 pip install -e ".[dev]"
-
-# Run tests
-make test
 ```
 
-## 📁 Project Structure
+## Quick Start
 
+```python
+from cogents_bu import Agent, BrowserProfile
+
+agent = Agent(
+    task="Your task description here",
+    max_steps=50,
+    browser_profile=BrowserProfile(headless=False)
+)
+await agent.run()
 ```
-├── cogents_bu/            # Main package
-├── tests/                 # Test suite
-├── docs/                  # Documentation
-├── docker-compose.yml     # Development environment
-├── pyproject.toml         # Project configuration
-└── Makefile               # Development commands
+
+See [examples/](examples/) for more usage examples.
+
+## Development
+
+```bash
+make install    # Install dependencies
+make test       # Run tests
+make format     # Format code
+make lint       # Run linters
 ```
 
-## 📄 License
+## License
 
-MIT License - see [LICENSE](LICENSE) file for details. 
+MIT License - see [LICENSE](LICENSE) file for details.
