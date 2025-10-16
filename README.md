@@ -6,7 +6,7 @@ A minimal, production-ready template for building Python libraries with modern d
 
 ```bash
 # Clone and customize
-git clone https://github.com/mirasurf/pytemplate.git my-library
+git clone https://github.com/caesar0301/cogents_bu.git my-library
 cd my-library
 
 # Install development dependencies
@@ -19,7 +19,7 @@ make test
 ## 📁 Project Structure
 
 ```
-├── pytemplate/            # Main package
+├── cogents_bu/            # Main package
 ├── tests/                 # Test suite
 ├── docs/                  # Documentation
 ├── docker-compose.yml     # Development environment
