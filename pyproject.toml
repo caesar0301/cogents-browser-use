@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cogents_bu"
+name = "cogents-browser-use"
 version = "0.1.1"
 description = "Adapted browser-use on Cogents stack. "
 readme = "README.md"
@@ -56,7 +56,7 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/caesar0301/cogents_bu"
+Homepage = "https://github.com/caesar0301/cogents-browser-use"
 
 [tool.setuptools.packages.find]
 where = ["."]
