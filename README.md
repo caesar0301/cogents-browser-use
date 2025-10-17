@@ -1,7 +1,7 @@
 # cogents-browser-use
 
 [![CI](https://github.com/caesar0301/cogents-browser-use/actions/workflows/ci.yml/badge.svg)](https://github.com/caesar0301/cogents-browser-use/actions/workflows/ci.yml)
-[![PyPI version](https://img.shields.io/pypi/v/cogents-broser-use.svg)](https://pypi.org/project/cogents-browser-use/)
+[![PyPI version](https://img.shields.io/pypi/v/cogents-browser-use.svg)](https://pypi.org/project/cogents-browser-use/)
 
 AI-powered browser automation adapted from browser-use on the Cogents stack.
 
