@@ -1,5 +1,7 @@
 # cogents-browser-use
 
+>  🗣️🗣️🗣️ This project has been archived since 2026-02 and contributed to [Mirasoth's Noesium](https://github.com/mirasoth/noesium/tree/main/noesium/agents/browser_use).
+
 [![CI](https://github.com/caesar0301/cogents-browser-use/actions/workflows/ci.yml/badge.svg)](https://github.com/caesar0301/cogents-browser-use/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/cogents-browser-use.svg)](https://pypi.org/project/cogents-browser-use/)
 
